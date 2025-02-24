@@ -22,19 +22,23 @@ def set_send_input():
     st.session_state.send_input = True
     st.session_state.user_question = st.session_state.user_input
     st.session_state.user_input = ""
+
+
 def load_chain(chat_history):
     return load_normal_chain(chat_history)
 
 
 def main():
     # Webapp configurations
-    st.set_page_config(page_title="PrepAI", page_icon="📖", layout="centered")
-    st.title("PrepAI : Your guide for interview preparation.")
+    st.set_page_config(page_title="Prepify", page_icon="📝", layout="centered")
+    st.title("Prepify : Your guide for interview preparation.")
     st.markdown(bg_settings, unsafe_allow_html=True)
     write_sidebar_contents()
+
     # Designing the app
     chat_container = st.container()
     chat_history = StreamlitChatMessageHistory(key="history")
+
     if "send_input" not in st.session_state:
         st.session_state.send_input = False
         st.session_state.user_question = ""
@@ -43,6 +47,7 @@ def main():
     send_button = st.button("Send", key="send_button")
 
     llm_chain = load_chain(chat_history)
+
     if send_button or st.session_state.send_input:
         if st.session_state.user_question != "":
             with chat_container:

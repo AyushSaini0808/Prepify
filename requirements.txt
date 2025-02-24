@@ -1,5 +1,8 @@
-streamlit
+streamlit~=1.37.1
 ollama
-langchain
+langchain~=0.2.14
 langchain-community
 langchain-core
+google-genai
+python-dotenv~=1.0.1
+PyPDF2

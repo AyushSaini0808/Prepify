@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a82add-394c-461d-a68f-3179a5683b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BOT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prompt_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sidebar_contents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prompt_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/prompt_template.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -34,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/app.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -53,17 +46,23 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.rough.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vision.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ayushsaini/PycharmProjects/BOT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
@@ -125,6 +124,35 @@
       <workItem from="1725287465422" duration="161000" />
       <workItem from="1725292584915" duration="2213000" />
       <workItem from="1725333794355" duration="3105000" />
+      <workItem from="1725504060439" duration="655000" />
+      <workItem from="1725801291443" duration="1259000" />
+      <workItem from="1725933174167" duration="3000" />
+      <workItem from="1727613869433" duration="1056000" />
+      <workItem from="1729394671084" duration="57000" />
+      <workItem from="1729394784550" duration="650000" />
+      <workItem from="1729396917023" duration="18000" />
+      <workItem from="1729405904012" duration="14000" />
+      <workItem from="1729406173835" duration="18000" />
+      <workItem from="1729415099439" duration="27000" />
+      <workItem from="1729415175346" duration="74000" />
+      <workItem from="1729415286268" duration="5000" />
+      <workItem from="1729415324801" duration="12000" />
+      <workItem from="1729415340545" duration="1000" />
+      <workItem from="1729416009565" duration="11000" />
+      <workItem from="1729416741659" duration="33000" />
+      <workItem from="1729592568418" duration="14000" />
+      <workItem from="1738734310123" duration="127000" />
+      <workItem from="1738755584427" duration="473000" />
+      <workItem from="1738756200747" duration="4000" />
+      <workItem from="1739367375157" duration="5585000" />
+      <workItem from="1739627420838" duration="276000" />
+      <workItem from="1739630914207" duration="2000" />
+      <workItem from="1739884657804" duration="2034000" />
+      <workItem from="1739887244189" duration="14000" />
+      <workItem from="1739894469325" duration="614000" />
+      <workItem from="1740019261917" duration="6000" />
+      <workItem from="1740370211046" duration="951000" />
+      <workItem from="1740371647077" duration="270000" />
     </task>
     <servers />
   </component>
@@ -134,7 +162,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BOT$practice.coverage" NAME="practice Coverage Results" MODIFIED="1724518537032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BOT$chain.coverage" NAME="chain Coverage Results" MODIFIED="1724681723928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/BOT$vision.coverage" NAME="vision Coverage Results" MODIFIED="1739371194954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/BOT$rough.coverage" NAME="rough Coverage Results" MODIFIED="1724681461187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/BOT$main.coverage" NAME="main Coverage Results" MODIFIED="1724600740281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BOT$main.coverage" NAME="main Coverage Results" MODIFIED="1738755988793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
